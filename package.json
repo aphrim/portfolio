@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy-production" : "scp -r ./* root@104.131.127.233:/var/www/aphrim.dev/html"
+  },
+  "dependencies": {
+    "@types/cookie": "^0.4.1",
+    "@types/react-icons": "^3.0.0",
+    "next": "12.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "typewriter-effect": "^2.18.2",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/react": "^17.0.43",
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.2",
+    "postcss": "^8.4.12",
+    "tailwind-scrollbar": "github:adoxography/tailwind-scrollbar#pull/36/head",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.6.3"
+  }
+}
