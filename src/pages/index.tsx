@@ -107,7 +107,7 @@ const Home: NextPage = () => {
                     </div>
 
                     {/* Reach out! */}
-                    <div className="w-screen min-h-[100vh] m-[100vh] ml-auto mr-auto text-center" id="contact">
+                    <div className="w-screen min-h-[100vh] mt-[100vh] ml-auto mr-auto text-center" id="contact">
                         <h1 className="text-foreground text-6xl mb-8"> Reach out to me! </h1> 
 
                         <IconContext.Provider value={{size: "3em", color: "var(--fg)", className: "ml-2 mr-2"}}>
@@ -122,7 +122,6 @@ const Home: NextPage = () => {
 
 
                 </div>
-
 
             </main>
         </div>

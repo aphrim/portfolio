@@ -35,6 +35,7 @@ export let themes = {
 }
 
 export function loadTheme() {
+    console.log("Loading theme");
     const theme = readCookies().theme || "Gruvbox";
     setTheme(theme);
 }
@@ -44,6 +45,8 @@ export function setTheme(themeName: string) {
     Object.keys(theme).forEach((key) => {
         (document.querySelector(':root') as HTMLElement).style.setProperty(`--${key}`, theme[key]);
     });
+    document.body.style.background = theme['bg'];
+    console.log(theme['bg']);
     setCookie("theme", themeName);
 }
 
