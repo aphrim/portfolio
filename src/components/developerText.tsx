@@ -3,7 +3,7 @@ import * as React from 'react';
 import Typewriter from 'typewriter-effect';
 
 const possibleTexts = [
-    "Developer", "Designer", "15 Year Old", "Looking for an internship"
+    "Developer", "Designer", "Competitive Programmer",
 ]
 
 export default class DeveloperText extends React.Component {

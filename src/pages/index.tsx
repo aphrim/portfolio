@@ -8,6 +8,7 @@ import DeveloperText    from '@components/developerText';
 import Button           from '@components/button';
 import Highlight        from '@components/highlight';
 import ProjectList      from '@components/projectList';
+import VisitCounter     from '@components/visitCounter';
 
 import { loadTheme }    from '@controllers/theme';
 import { scrollTo }     from '@controllers/page';
@@ -60,7 +61,7 @@ const Home: NextPage = () => {
                     {/* <img className="w-1/4 md:w-96 m-auto" /> */}
                     <p className="m-auto w-[80%] text-foreground text-2xl sm:text-3xl lg:text-5xl">
                         I am <Highlight> Gregory Perrett</Highlight>, and I am interested in coding, computers, and mathematics. <br/>
-                        I am <Highlight> 15 years old</Highlight>, and have been coding for <Highlight> 3 years</Highlight>. <br/>
+                        I am <Highlight> 16 years old</Highlight>, and have been coding for <Highlight> 3 years</Highlight>. <br/>
                     </p>
 
                     <h2 className="text-3xl sm:text-4xl lg:text-6xl mt-8"> <Highlight> Skills: </Highlight> <br/> </h2>
@@ -118,6 +119,8 @@ const Home: NextPage = () => {
                         </IconContext.Provider>
 
                         <h1 className="text-foreground text-xl md:text-3xl mt-4"> Email: gregperrett5@gmail.com </h1> 
+
+                        <VisitCounter />
                     </div>
 
 
