@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                     {/* <img className="w-1/4 md:w-96 m-auto" /> */}
                     <p className="m-auto w-[80%] text-foreground text-2xl sm:text-3xl lg:text-5xl">
                         I am <Highlight> Gregory Perrett</Highlight>, and I am interested in coding, computers, and mathematics. <br/>
-                        I am <Highlight> 16 years old</Highlight>, and have been coding for <Highlight> 3 years</Highlight>. <br/>
+                        I am <Highlight> 17 years old</Highlight>, and have been coding for <Highlight> 3 years</Highlight>. <br/>
                     </p>
 
                     <h2 className="text-3xl sm:text-4xl lg:text-6xl mt-8"> <Highlight> Skills: </Highlight> <br/> </h2>
@@ -114,8 +114,7 @@ const Home: NextPage = () => {
                         <IconContext.Provider value={{size: "3em", color: "var(--fg)", className: "ml-2 mr-2"}}>
                             <button onClick={() => {window.open("https://www.github.com/aphrim", "_blank")}}> <BsGithub/> </button>
                             <button onClick={() => {window.open("https://www.linkedin.com/in/gregoryperrett/", "_blank")}}> <BsLinkedin/> </button>
-                            <button onClick={() => {window.open("https://www.twitter.com/gregory_perrett", "_blank")}}> <BsTwitter/> </button>
-                            {/* <button onClick={() => {window.open("https://www.codeforces.com/profile/Aphrim", "_blank")}}> <SiCodeforces/> </button> */}
+                            <button onClick={() => {window.open("https://www.codeforces.com/profile/Aphrim", "_blank")}}> <SiCodeforces/> </button>
                         </IconContext.Provider>
 
                         <h1 className="text-foreground text-xl md:text-3xl mt-4"> Email: gregperrett5@gmail.com </h1> 
